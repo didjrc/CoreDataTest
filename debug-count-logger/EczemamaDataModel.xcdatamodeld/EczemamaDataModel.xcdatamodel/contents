@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="EczemamaEntity" representedClassName="EczemamaEntity" syncable="YES">
+        <attribute name="accelData" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="order" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="child" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EczemamaEntity" inverseName="parent" inverseEntity="EczemamaEntity" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EczemamaEntity" inverseName="child" inverseEntity="EczemamaEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EczemamaEntity" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
+</model>
