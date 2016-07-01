@@ -14,7 +14,7 @@
 #import "EczemamaEntity+CoreDataProperties.h"
 
 static NSString *const selectItemSegue = @"selectItem"; //added
-@interface UITableViewController () <NSFetchedResultsControllerDataSourceDelegate, UITextFieldDelegate>
+@interface DataLogTableViewController () <NSFetchedResultsControllerDataSourceDelegate, UITextFieldDelegate>
 
 @property (nonatomic, strong) FetchedResultsControllerDataSource *fetchedResultsControllerDataSource;
 @property (nonatomic, strong) UITextField *titleField;
