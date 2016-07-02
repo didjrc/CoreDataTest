@@ -45,7 +45,7 @@
 		9F868F301D24FD8B003D80AE /* Tricorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tricorder.m; sourceTree = "<group>"; };
 		9F868F321D24FF07003D80AE /* TricorderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TricorderData.h; sourceTree = "<group>"; };
 		9F868F331D24FF07003D80AE /* TricorderData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TricorderData.m; sourceTree = "<group>"; };
-		9FF363191D24F22800FE4602 /* debug-count-logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "debug-count-logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF363191D24F22800FE4602 /* Core Data Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF3631D1D24F22800FE4602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9FF3631F1D24F22800FE4602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FF363201D24F22800FE4602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		9FF3631A1D24F22800FE4602 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FF363191D24F22800FE4602 /* debug-count-logger.app */,
+				9FF363191D24F22800FE4602 /* Core Data Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 			);
 			name = "debug-count-logger";
 			productName = "debug-count-logger";
-			productReference = 9FF363191D24F22800FE4602 /* debug-count-logger.app */;
+			productReference = 9FF363191D24F22800FE4602 /* Core Data Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -395,7 +395,7 @@
 				INFOPLIST_FILE = "debug-count-logger/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DIC.debug-count-logger";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Core Data Test";
 			};
 			name = Debug;
 		};
@@ -407,7 +407,7 @@
 				INFOPLIST_FILE = "debug-count-logger/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DIC.debug-count-logger";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Core Data Test";
 			};
 			name = Release;
 		};

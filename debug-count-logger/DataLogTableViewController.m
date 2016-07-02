@@ -105,16 +105,16 @@ static NSString *const selectItemSegue = @"selectItem"; //added
 	subDataLogTableViewController.parent = eczemamaEntity;
 }
 
-- (BOOL) textFieldShouldReturn : (UITextField *)textField {
-	NSString *title = textField.text;
-	NSString *actionName = [NSString stringWithFormat:NSLocalizedString(@"add item \'%@\"", @"Undo action name of add item"), title];
-	[self.undoManager setActionName:actionName];
-	[EczemamaEntity insertItemWithTitle:title parent:self.parent inManagedObjectContext:self.managedObjectContext];
-	textField.text = @"";
-	[textField resignFirstResponder];
-	[self hideNewItemField];
-	return NO;
-}
+//- (BOOL) textFieldShouldReturn : (UITextField *)textField {
+//	NSString *title = textField.text;
+//	NSString *actionName = [NSString stringWithFormat:NSLocalizedString(@"add item \'%@\"", @"Undo action name of add item"), title];
+//	[self.undoManager setActionName:actionName];
+//	[EczemamaEntity insertItemWithTitle:title parent:self.parent inManagedObjectContext:self.managedObjectContext];
+//	textField.text = @"";
+//	[textField resignFirstResponder];
+//	[self hideNewItemField];
+//	return NO;
+//}
 
 - (NSManagedObjectContext*)managedObjectContext
 {
@@ -130,13 +130,13 @@ static NSString *const selectItemSegue = @"selectItem"; //added
 	}
 }
 
-- (void)scrollViewWillEndDragging:(UIScrollView*)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint*)targetContentOffset
-{
-	BOOL itemFieldVisible = self.tableView.contentInset.top == 0;
-	if (itemFieldVisible) {
-		[self.titleField becomeFirstResponder];
-	}
-}
+//- (void)scrollViewWillEndDragging:(UIScrollView*)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint*)targetContentOffset
+//{
+//	BOOL itemFieldVisible = self.tableView.contentInset.top == 0;
+//	if (itemFieldVisible) {
+//		[self.titleField becomeFirstResponder];
+//	}
+//}
 
 - (void)showNewItemField
 {
